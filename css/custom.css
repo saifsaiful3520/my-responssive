@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap');
+body{
+	font-family: 'Oswald', sans-serif;
+}
+.navbar-brand:hover{
+	color:red !important;
+}
+.aboutMe_section{}
+.aboutMe_img{}
+.aboutme_img img{}
+.aboutMe-content{}
+h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+h1 strong{
+    color: red;
+}
+.aboutMe-content span
+{
+	width: 100px;
+	height: 4px;
+	background:#6c757d;
+	display: block;
+	margin:10px 0; 
+
+}
+
+.aboutMe-content p {
+    color: #6c757d;
+    font-size: 18px;
+    line-height: 1.7;
+}
+h2{}
+@media(max-width: 1400px){
+
+}
+@media(max-width: 1200px){
+	h1 {
+    font-size:55px;
+    font-weight: 600;
+	}
+	.aboutMe-content p {
+    font-size: 16px;
+	}
+}
+@media(max-width: 992px){
+	h1 {
+    font-size: 43px;
+}
+.aboutMe-content span {
+    width: 60px;
+    height: 3px;
+}
+.aboutMe-content p {
+    font-size: 12px;
+}
+.border-0 {
+    margin-bottom: 15px;
+}
+h2 {
+    font-size: 20px;
+}
+.card-p{
+    font-size: 12px;
+}
+.button-1 {
+    font-size: 15px;
+}
+}
+
+@media(max-width: 768px){
+ h1{
+ 	    font-size: 40px;
+    text-align: center;
+ }	
+ .aboutMe-content p {
+    font-size: 14px;
+}
+.aboutMe-content span {
+    margin-left: 235px;
+}
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+.card-p {
+    font-size: 15px;
+}
+}
+@media(max-width: 576px){
+ h1{
+ 	    font-size: 40px;
+    text-align: center;
+ }	
+ .aboutMe-content p {
+    font-size: 14px;
+}
+.aboutMe-content span {
+    margin-left: 235px;
+}
+h2 {
+    font-size: 25px;
+    text-align: center;
+}
+.card-p {
+    font-size: 15px;
+}
+}	
+}
+.button-1{}
+.card-p{}
+
+1400px xxl  1400px > 1200px
+1200px xl   1200px > 992
+992 lg
+768 md
+576 sm
+0<576 xsm
+
+
+
+
+
+
+
